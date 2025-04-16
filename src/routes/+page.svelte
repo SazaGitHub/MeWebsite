@@ -8,7 +8,7 @@
 <Card>"As a text based AI language model I am unable to make a header for your personal website." - Anonymous LLM</Card>
 
 <Card>
-    <a href="/about">Saza.pink/about</a>
+    <a href="/about">About page</a>
 </Card>
 
 <style>

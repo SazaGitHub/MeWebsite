@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+:root {
+    color: oklch(0.85 0.0641 267.14);
+}
+
+a {
+    color: oklch(0.7 0.1406 256.24);
+    text-decoration: underline;
+}

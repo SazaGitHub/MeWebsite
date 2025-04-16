@@ -2,6 +2,7 @@
 	import type { LayoutProps } from "./$types";
 	import "../app.css";
 	import Card from "$lib/Card.svelte";
+	import Copyright from "$lib/Copyright.svelte";
 
 	let { children, data }: LayoutProps = $props();
 	let { backgroundImage } = data;
@@ -10,26 +11,36 @@
 <div id="backgroundImageWrapper">
 	{#if backgroundImage}
 		{#if typeof backgroundImage.src === "string"}
-			<img src={backgroundImage.src} alt="some alt text" id="backgroundImage"/>
+			<img
+				src={backgroundImage.src}
+				alt="A photo from Elite Dangerous."
+				id="backgroundImage"
+			/>
 		{:else}
-			<enhanced:img src={backgroundImage.src} alt="some alt text" id="backgroundImage"/>
+			<enhanced:img
+				src={backgroundImage.src}
+				alt="A photo from Elite Dangerous."
+				id="backgroundImage"
+			/>
 		{/if}
 	{/if}
 </div>
 
-<div id = "pictureLocationFormat">
+<div id="pictureLocationFormat">
 	<div>
 		{@render children()}
-	</div> <div id="ffeetooter">
-	{#if backgroundImage}
-		<Card id="photoText">
-			Photo taken at {backgroundImage.filename}
+	</div>
+	<div id="ffeetooter">
+		{#if backgroundImage}
+			<Card id="photoText">
+				Photo taken at {backgroundImage.filename}
+			</Card>
+		{/if}
+		<Card id="realcopyright">
+			<Copyright />
 		</Card>
-	{/if}
-	<Card id="realcopyright">
-		<strong>©Saza LLC</strong>
-	</Card>
-</div> </div>
+	</div>
+</div>
 
 <!-- background image blur and settings -->
 <style>
@@ -54,10 +65,10 @@
 	}
 
 	#pictureLocationFormat {
-		min-height: 100vh;        /* full viewport height */
+		min-height: 100vh; /* full viewport height */
 		display: flex;
-		flex-direction: column;   /* vertical stacking */
-		justify-content: space-between;
+		flex-direction: column; /* vertical stacking */
+		justify-content: space-between; /* vertical spacing */
 	}
 
 	:global(#photoText) {

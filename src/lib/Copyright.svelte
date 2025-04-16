@@ -3,4 +3,4 @@
 	const currentYear = new Date().getFullYear();
 </script>
 
-© {startYear} - {currentYear} <strong> Saza LLC </strong>
+© {startYear} - {currentYear} <strong>Saza LLC</strong>

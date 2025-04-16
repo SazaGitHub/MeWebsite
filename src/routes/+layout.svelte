@@ -20,13 +20,16 @@
 <div id = "pictureLocationFormat">
 	<div>
 		{@render children()}
-	</div>
+	</div> <div id="ffeetooter">
 	{#if backgroundImage}
 		<Card id="photoText">
 			Photo taken at {backgroundImage.filename}
 		</Card>
 	{/if}
-</div>
+	<Card id="realcopyright">
+		<strong>©Saza LLC</strong>
+	</Card>
+</div> </div>
 
 <!-- background image blur and settings -->
 <style>
@@ -60,5 +63,11 @@
 	:global(#photoText) {
 		display: inline;
 		width: fit-content;
+	}
+
+	#ffeetooter {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 </style>

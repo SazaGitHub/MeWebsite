@@ -34,7 +34,6 @@
 		almost in a movie once. That then didn't happen. I am the ruiner of
 		everything fun according to those around me. I am also [TITLE CARD].
 		<br />
-		<br />
 		橘沙砂と申します。人工知能のオートコンプリートによると、サンフランシスコで働いている電子計算機学者です。実は、
 		日本で大学の教授で働きます。2020年から日本語を学習しまして、少々日本に住みました。あの時に書道を学んだり詩や小説を書いたり日本語と英語で両方しました。
 		そうして、2009年より格闘技の訓練が始まりまして、こちらを書く時に黒帯の二段を持ちしております。そういえば、映画に出そうになった事があるがそうはなりませんでした。

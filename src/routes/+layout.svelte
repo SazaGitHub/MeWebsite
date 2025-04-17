@@ -3,6 +3,7 @@
 	import "../app.css";
 	import Card from "$lib/Card.svelte";
 	import Copyright from "$lib/Copyright.svelte";
+	import NavigationBar from "$lib/NavigationBar.svelte";
 
 	let { children, data }: LayoutProps = $props();
 	let { backgroundImage } = data;
@@ -25,6 +26,8 @@
 		{/if}
 	{/if}
 </div>
+
+<NavigationBar />
 
 <div id="pictureLocationFormat">
 	<div>

@@ -4,27 +4,18 @@
 	import Card from "$lib/Card.svelte";
 	import Copyright from "$lib/Copyright.svelte";
 	import NavigationBar from "$lib/NavigationBar.svelte";
+	import EnhancedImage from "$lib/EnhancedImage.svelte";
 
 	let { children, data }: LayoutProps = $props();
 	let { backgroundImage } = data;
 </script>
 
 <div id="backgroundImageWrapper">
-	{#if backgroundImage}
-		{#if typeof backgroundImage.src === "string"}
-			<img
-				src={backgroundImage.src}
-				alt="A photo from Elite Dangerous."
-				id="backgroundImage"
-			/>
-		{:else}
-			<enhanced:img
-				src={backgroundImage.src}
-				alt="A photo from Elite Dangerous."
-				id="backgroundImage"
-			/>
-		{/if}
-	{/if}
+	<EnhancedImage
+		src={backgroundImage.src}
+		alt="A photo from Elite Dangerous."
+		id="backgroundImage"
+	/>
 </div>
 
 <NavigationBar />
@@ -36,7 +27,9 @@
 	<div id="ffeetooter">
 		{#if backgroundImage}
 			<Card id="photoText">
-				Photo taken at {backgroundImage.filename}
+				Photo taken at <strong>{backgroundImage.filename}</strong>.
+				<br />
+				Reload to see other images!
 			</Card>
 		{/if}
 		<Card id="realcopyright">
@@ -57,7 +50,7 @@
 		overflow: hidden;
 	}
 
-	#backgroundImage {
+	:global(#backgroundImage) {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
@@ -83,5 +76,6 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		align-items: flex-end;
 	}
 </style>

@@ -22,7 +22,7 @@
 
 <nav class={{ hidden }}>
 	<a href="/"><strong>Home</strong></a>
-	<a href="/about"><strong>Contact & Links</strong></a>
+	<a href="/nanocock"><strong>NanoClock™</strong></a>
 	<a href="/calligraphy"><strong>Calligraphy</strong></a>
 </nav>
 

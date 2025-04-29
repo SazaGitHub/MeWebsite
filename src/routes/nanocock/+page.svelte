@@ -68,8 +68,8 @@
 		font-size: 2rem;
 		text-align: center;
 		margin-top: 20vh;
-		margin-left: 10rem;
-		margin-right: 10rem;
+		margin-left: 2rem;
+		margin-right: 2rem;
 		color: #ffffff;
 		background-color: #000;
 		padding: 2rem;

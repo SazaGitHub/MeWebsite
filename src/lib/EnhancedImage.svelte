@@ -5,5 +5,5 @@
 {#if typeof src === "string"}
 	<img {id} class={className} {src} {alt} />
 {:else}
-	<enhanced:img {id} class={className} {src} {alt} />
+	<img {id} class={className} src={src.img.src} {alt} />
 {/if}

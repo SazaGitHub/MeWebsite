@@ -8,7 +8,6 @@
 				"/src/CalligraphyImages/*.{bmp,avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}",
 				{
 					eager: true,
-					query: { enhanced: true },
 				},
 			),
 		) as any[]
@@ -83,7 +82,7 @@
 
 	.imageLink {
 		display: flex;
-		max-width: calc(33% - 2rem);
+		max-width: calc(20% - 2rem);
 		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 		cursor: pointer;
 		max-height: 50vh;
@@ -116,7 +115,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		z-index: 1000;
+		z-index: 99999999;
 		cursor: zoom-out;
 	}
 

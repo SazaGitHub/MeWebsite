@@ -82,10 +82,10 @@
 
 	.imageLink {
 		display: flex;
-		max-width: calc(20% - 2rem);
+		max-width: calc(25% - 1rem);
 		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 		cursor: pointer;
-		max-height: 50vh;
+		max-height: 50vh + 5rem;
 		outline: none;
 	}
 

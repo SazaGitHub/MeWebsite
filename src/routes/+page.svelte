@@ -35,14 +35,16 @@
 	collegiate level. I have studied Japanese since 2020, and lived in Japan for
 	a period of time where I studied calligraphy and wrote poetry and novels in
 	both English and Japanese. I also have studied martial arts since 2009, and
-	as of writing hold a 2nd degree black belt. I was almost in a movie once.
-	That then didn't end up happening. I am also [TITLE CARD].
+	as of writing hold a 2nd degree black belt. My focus in martial arts
+	primarily falls under modern and traditional weapons. I was almost in a movie
+	once. That then didn't end up happening. I am also [TITLE CARD].
 </Card>
 
 <Card id="bio">
 	橘沙砂と申します。儂は、日本で大学の教授で働きます。2020年から日本語を学習しまして、少々日本に住みました。
 	あの時に書道を学んだり詩や小説を書いたり日本語と英語で両方しました。
 	そうして、2009年より格闘技の訓練が始まりまして、こちらを書く時に黒帯の二段を持ちしております。
+	格闘技の中で伝統的と現代的な武器の専門家です。
 	そういえば、映画に出そうになった事があるがそうはなりませんでした。最後に僕が[題字]
 </Card>
 

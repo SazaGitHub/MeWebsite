@@ -29,7 +29,9 @@
 			<Card id="photoText">
 				Photo taken at <strong>{backgroundImage.filename}</strong>.
 				<br />
-				Reload to see other images!
+				Reload or go to <strong>Backgrounds</strong> to see other images
+				from
+				<strong>Elite Dangerous</strong>!
 			</Card>
 		{/if}
 		<Card id="realcopyright">

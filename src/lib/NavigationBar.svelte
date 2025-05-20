@@ -22,7 +22,6 @@
 
 <nav class={{ hidden }}>
 	<a href="/"><strong>Home</strong></a>
-	<a href="/nanoclock"><strong>NanoClock™</strong></a>
 	<a href="/calligraphy"><strong>Calligraphy</strong></a>
 	<a href="/backgrounds"><strong>Backgrounds</strong></a>
 </nav>
